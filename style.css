@@ -1,3 +1,4 @@
+/*=================================colonne gauche et doite================================*/
 .col-lg-3{
     background-color:#ff7e67;
     border: solid 2px #35495e;
@@ -6,3 +7,18 @@
         background-color:white;
         border: solid 2px #35495e;
     }
+/*=================================photo================================*/
+.photo{
+    display: block;        
+    border:solid 2px #347474;    
+    border-radius: 50%;
+    
+    
+}
+img{
+    display: block;        
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}

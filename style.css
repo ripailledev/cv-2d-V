@@ -1,4 +1,4 @@
-/*=================================colonne gauche et doite================================*/
+/*=================================colonne gauche et droite================================*/
 .col-lg-3{
     background-color:#ff7e67;
     border: solid 2px #35495e;
@@ -19,4 +19,12 @@ img{
     border-radius: 50%;
     overflow: hidden;
     max-width: 100%;
+}
+/*=================================style col gauche================================*/
+h3{
+    background-color: #35495e;
+    text-align: center;    
+}
+body h3{
+    color: #ff7e67;
 }

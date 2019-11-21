@@ -11,14 +11,14 @@
 .photo{
     display: inline-block;        
     border:solid 2px #347474;    
-    border-radius: 50%;
-    max-width: 100%;
+    border-radius: 50%;  
+    max-width: 100%;        
 }
 img{
-    display: block;        
+    display: inline-block;        
     border-radius: 50%;
     overflow: hidden;
-    max-width: 100%;
+    max-width: 100%;    
 }
 /*=================================style liste a puce================================*/
 li{
@@ -37,3 +37,30 @@ body h3{
 .atout{
     color: black;
 }
+/*=================================div loisirs================================*/
+.box{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fa-swimmer{    
+    color: #35495e;
+    border:solid 2px #35495e;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.fa-carrot{    
+    color: #35495e;
+    border:solid 2px #35495e;
+    border-radius: 50%;
+    overflow: hidden;}
+.fa-music{    
+    color: #35495e;
+    border:solid 2px #35495e;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*=================================style col droite================================*/
+/*==============header=============*/
+/*==============section exp pro=============*/
+/*==============footer=============*/

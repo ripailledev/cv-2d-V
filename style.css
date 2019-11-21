@@ -6,7 +6,7 @@
 .col-lg-9{
         background-color:white;
         border: solid 2px #35495e;
-    }
+}
 /*=================================photo================================*/
 .photo{
     display: inline-block;        
@@ -62,5 +62,11 @@ body h3{
 }
 /*=================================style col droite================================*/
 /*==============header=============*/
+.Jerome{
+    color: #ff7e67;
+}
+.reconv{
+    text-decoration:underline #ff7e67 ;
+}
 /*==============section exp pro=============*/
 /*==============footer=============*/

@@ -74,6 +74,9 @@ body h3{
 .fa-lightbulb{
     color:  #ff7e67;
 }
+.separation{background:#ff7e67;
+    height: 5px;
+}
 /*==============header=============*/
 .Jerome{
     color: #ff7e67;

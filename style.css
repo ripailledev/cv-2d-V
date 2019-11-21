@@ -7,6 +7,10 @@
         background-color:white;
         border: solid 2px #35495e;
 }
+/*=========p=========*/
+p{
+    color: black;
+}
 /*=================================photo================================*/
 .photo{
     display: inline-block;        
@@ -61,6 +65,15 @@ body h3{
     overflow: hidden;
 }
 /*=================================style col droite================================*/
+.fa-briefcase{
+    color:  #ff7e67;
+}
+.fa-graduation-cap{
+    color:  #ff7e67;
+}
+.fa-lightbulb{
+    color:  #ff7e67;
+}
 /*==============header=============*/
 .Jerome{
     color: #ff7e67;

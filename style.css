@@ -30,6 +30,11 @@ li{
     color: #ff7e67;
 }
 /*=================================style col gauche================================*/
+.no-gutter > [class*='col-lg-3']
+{
+    padding-right:0;
+    padding-left:0;
+}
 h3{
     background-color: #35495e;
     text-align: center;    
@@ -37,6 +42,8 @@ h3{
 body h3{
     color: #ff7e67;
 }
+/*===========div info==============*/
+
 /*=================================section atout================================*/
 .atout{
     color: black;

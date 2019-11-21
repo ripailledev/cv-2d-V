@@ -20,6 +20,11 @@ img{
     overflow: hidden;
     max-width: 100%;
 }
+/*=================================style liste a puce================================*/
+li{
+    list-style-type: circle;
+    color: #ff7e67;
+}
 /*=================================style col gauche================================*/
 h3{
     background-color: #35495e;
@@ -27,4 +32,8 @@ h3{
 }
 body h3{
     color: #ff7e67;
+}
+/*=================================section atout================================*/
+.atout{
+    color: black;
 }

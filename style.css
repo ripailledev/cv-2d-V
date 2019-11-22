@@ -1,15 +1,13 @@
 /*=================================colonne gauche et droite================================*/
 .col-lg-3{
     background-color:#ff7e67;
-    border: solid 2px #35495e;
-    
+    border: solid 2px #35495e;    
 }
 .col-lg-9{
         background-color:#35495e;
         border: solid 2px #35495e;
         padding-left: 10%;
-        padding-right: 10%;
-        
+        padding-right: 10%;        
 }
 /*=========p=========*/
 p{
@@ -40,17 +38,31 @@ h3{
 body h3{
     color: #ff7e67;
 }
-/*===========div info==============*/
-
+/*===================================div info==================================*/
+.infoss{
+    margin: 5%;
+}
+/*===================================contact===================================*/
+.contact2{
+    margin: 5%;
+}
+/*===================================APM===================================*/
+.apm2{
+    margin: 5%;
+}
 /*=================================section atout================================*/
 .atout{
     color: black;
+}
+.at{
+    margin: 5%;
 }
 /*=================================div loisirs================================*/
 .box{    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 10%;
 }
 .fa-swimmer{    
     color: #35495e;

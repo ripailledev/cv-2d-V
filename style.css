@@ -2,27 +2,25 @@
 .col-lg-3{
     background-color:#ff7e67;
     border: solid 2px #35495e;
+    
 }
 .col-lg-9{
-        background-color:white;
+        background-color:#35495e;
         border: solid 2px #35495e;
+        padding-left: 10%;
+        padding-right: 10%;
+        
 }
 /*=========p=========*/
 p{
     color: black;
 }
-/*=================================photo================================*/
-.photo{
-    display: inline-block;        
-    border:solid 2px #347474;    
-    border-radius: 50%;  
-    max-width: 100%;        
-}
+/*=================================photo================================*/   
 img{
-    display: inline-block;        
-    border-radius: 50%;
-    overflow: hidden;
-    max-width: 100%;    
+    display: block;        
+    border-radius: 50%;    
+    max-width: 80%;  
+    margin: 10%;    
 }
 /*=================================style liste a puce================================*/
 li{
@@ -85,6 +83,9 @@ body h3{
     height: 5px;
 }
 /*==============header=============*/
+header{
+    margin: 5%;
+}
 .Jerome{
     color: #ff7e67;
 }
@@ -92,5 +93,11 @@ body h3{
     text-decoration:underline #ff7e67 ;
 }
 /*==============section exp pro=============*/
-
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 /*==============footer=============*/
+footer{
+    margin: 5%;
+}

@@ -23,7 +23,7 @@ img{
 }
 /*=================================style liste a puce================================*/
 li{
-    list-style-type: circle;
+    list-style-type: space;    
     color: #ff7e67;
 }
 /*=================================style col gauche================================*/
@@ -109,6 +109,9 @@ header{
 section{
     margin-left: 5%;
     margin-right: 5%;
+}
+.puce{
+    list-style: square;
 }
 /*==============footer=============*/
 footer{

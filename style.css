@@ -34,15 +34,13 @@ li{
     padding-right:0;
     padding-left:0;
 }
-h3{
+aside h2{
     background-color: #35495e;
-    text-align: center;    
-}
-body h3{
-    color: #ff7e67;
-}
+    text-align: center;
+    color: #ff7e67}   
+
 /*===================================div info==================================*/
-.infoss{
+.infos2{
     margin: 5%;
 }
 /*===================================contact===================================*/

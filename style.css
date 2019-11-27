@@ -105,6 +105,17 @@ header{
 .reconv{
     text-decoration:underline #ff7e67 ;
 }
+/*==============section formation=============*/
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.puce{
+    list-style: disc;
+}
+.col-sm-3 li{
+    color: black;
+}
 /*==============section exp pro=============*/
 section{
     margin-left: 5%;
@@ -113,7 +124,4 @@ section{
 .puce{
     list-style: square;
 }
-/*==============footer=============*/
-footer{
-    margin: 5%;
-}
+

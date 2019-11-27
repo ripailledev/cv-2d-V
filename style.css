@@ -1,7 +1,9 @@
 /*=================================colonne gauche et droite================================*/
 .col-lg-3{
     background-color:#ff7e67;
-    border: solid 2px #35495e;    
+    border: solid 2px #35495e;  
+    margin-left: auto;
+    margin-right: auto;  
 }
 .col-lg-9{
         background-color:#EEEEEE;
@@ -24,21 +26,15 @@ img{
     margin-right: auto; 
 }
 /*=================================style liste a puce================================*/
-li{
-    list-style-type: space;    
-    color: #ff7e67;
+li{      
+    color: black;    
 }
 /*=================================style col gauche================================*/
-.no-gutter > [class*='col-lg-3']
-{
-    padding-right:0;
-    padding-left:0;
-}
 aside h2{
     background-color: #35495e;
     text-align: center;
-    color: #ff7e67}   
-
+    color: #ff7e67
+}
 /*===================================div info==================================*/
 .infos2{
     margin: 5%;
@@ -62,8 +58,11 @@ aside h2{
 .box{    
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;    
+    margin-left: auto;
+    margin-right: auto;
     margin: 10%;
+    padding-left: 0%;
 }
 .fa-swimmer{    
     color: #35495e;
@@ -75,7 +74,8 @@ aside h2{
     color: #35495e;
     border:solid 2px #35495e;
     border-radius: 50%;
-    overflow: hidden;}
+    overflow: hidden;
+}
 .fa-music{    
     color: #35495e;
     border:solid 2px #35495e;
@@ -113,8 +113,9 @@ section{
 .puce{
     list-style: disc;
 }
-.col-sm-3 li{
-    color: black;
+ul .formations{
+    display: inline-flex;
+    justify-content: flex-start;    
 }
 /*==============section exp pro=============*/
 section{
@@ -122,6 +123,11 @@ section{
     margin-right: 5%;
 }
 .puce{
-    list-style: square;
+    list-style: disc;
 }
+.box1{
+    display: flex;
+    justify-content: flex-start;
+}
+
 

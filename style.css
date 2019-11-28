@@ -135,6 +135,10 @@ ul .formations{
     display: inline-flex;
     justify-content: flex-start;    
 }
+.niveau{
+    list-style: none;
+    font-weight: bold;
+}
 /*==============section exp pro=============*/
 .bold{
     list-style: none;

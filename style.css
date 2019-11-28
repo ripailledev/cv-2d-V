@@ -112,22 +112,25 @@ section{
 }
 .puce{
     list-style: disc;
-}
-ul .formations{
+}ul .formations{
     display: inline-flex;
     justify-content: flex-start;    
 }
+
 /*==============section exp pro=============*/
-section{
-    margin-left: 5%;
-    margin-right: 5%;
-}
 .puce{
     list-style: disc;
 }
 .box1{
+    display: flex;       
+    justify-content: space-between;
+    align-content: flex-start;
+    }
+.element2{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
 }
 
+    
 

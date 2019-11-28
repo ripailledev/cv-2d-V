@@ -1,7 +1,9 @@
-/*===================font size=============*/
+/*===================font=============*/
 body{
-    font-size: 1rem;
+    font-size: large;
+    font-family: Helvetica, Arial, sans-serif;    
 }
+
 
 /*=================================colonne gauche et droite================================*/
 .col-lg-3{
@@ -34,7 +36,8 @@ img{
 }
 /*=================================style liste a puce================================*/
 li{      
-    color: black;    
+    color: black; 
+    margin-top: 3%;   
 }
 /*=================================style col gauche================================*/
 aside h2{
@@ -43,21 +46,14 @@ aside h2{
     color: #ff7e67
 }
 /*===================================div info==================================*/
-.infos2{
-    margin: 5%;
-}
+
 /*===================================contact===================================*/
-.contact2{
-    margin: 5%;
-}
+
 /*===================================APM===================================*/
 .apm2{
     margin: 5%;
 }
 /*=================================section atout================================*/
-.atout{
-    color: black;
-}
 .at{
     margin: 5%;
 }
@@ -102,6 +98,12 @@ aside h2{
 .separation{background:#ff7e67;
     height: 5px;
 }
+section h2{
+    font-weight: bold;
+}
+section h4{
+    font-weight: bold;
+}
 /*==============header=============*/
 header{
     margin: 5%;
@@ -114,19 +116,21 @@ header{
 }
 /*==============section formation=============*/
 section{
+    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
 }
-.puce{
-    list-style: disc;
-}ul .formations{
+section li{
+    list-style-type: disc;    
+}
+ul .formations{
     display: inline-flex;
     justify-content: flex-start;    
 }
-
 /*==============section exp pro=============*/
-.puce{
-    list-style: disc;
+
+.row{
+    margin-top: 5%;
 }
 
     

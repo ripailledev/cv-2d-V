@@ -3,11 +3,9 @@ body{
     font-size: large;
     font-family: Helvetica, Arial, sans-serif;    
 }
-
-
 /*=================================colonne gauche et droite================================*/
 .col-lg-3{
-    background-color:#ff7e67;
+    background-color:#6fb98f;
     border: solid 2px #35495e;  
     margin-left: auto;
     margin-right: auto;  
@@ -43,7 +41,7 @@ li{
 aside h2{
     background-color: #35495e;
     text-align: center;
-    color: #ff7e67
+    color:#6fb98f;
 }
 /*===================================div info==================================*/
 .infos li{
@@ -94,16 +92,16 @@ aside h2{
 }
 /*=================================style col droite================================*/
 .fa-briefcase{
-    color:  #ff7e67;
+    color:  #6fb98f;
 }
 .fa-graduation-cap{
-    color:  #ff7e67;
+    color:  #6fb98f;
 }
 .fa-lightbulb{
-    color:  #ff7e67;
+    color:  #6fb98f;
 }
 .separation{
-    background:#ff7e67;
+    background:#6fb98f;
     height: 5px;
 }
 section h2{
@@ -117,10 +115,10 @@ header{
     margin: 5%;
 }
 .Jerome{
-    color: #ff7e67;
+    color: #6fb98f;
 }
 .reconv{
-    text-decoration:underline #ff7e67 ;
+    text-decoration:underline #6fb98f ;
 }
 /*==============section formation=============*/
 section{
@@ -136,7 +134,7 @@ ul .formations{
     justify-content: flex-start;    
 }
 .niveau{
-    list-style: none;
+    list-style-type: none;
     font-weight: bold;
 }
 /*==============section exp pro=============*/

@@ -21,6 +21,7 @@ body{
 /*=========p=========*/
 p{
     color: black;
+    margin: 0px;
 }
 /*=================================photo================================*/   
 img{
@@ -47,21 +48,35 @@ aside h2{
 .infos li{
     list-style: none;
 }
+.infos ul{
+    padding: 10px 10px;
+}
+
+
 /*===================================contact===================================*/
 .contact li{
     list-style-type: none;
 }
+.contact ul{
+    padding: 10px 10px;
+}
 /*===================================APM===================================*/
-.apm2{
-    margin: 5%;
+.apm2{    
+    padding: 10px 10px;
 }
 /*=================================section atout================================*/
 .at{
     margin: 5%;
+    padding: 10px 10px;
+    padding-left: 20px;
 }
+
 /*=================================div loisirs================================*/
 .loisirs li{
     list-style: none;
+}
+.loisirs ul{
+    padding: 5px 5px;
 }
 .box{    
     display: flex;
@@ -100,11 +115,18 @@ aside h2{
 .fa-lightbulb{
     color:  #6fb98f;
 }
+.fa-pen{
+    color:  #6fb98f;
+}
 .separation{
     background:#6fb98f;
     height: 5px;
 }
 section h2{
+    font-weight: bold;
+}
+section h3{
+    font-size: 1.3rem;
     font-weight: bold;
 }
 section h4{
@@ -122,20 +144,12 @@ header{
 }
 /*==============section formation=============*/
 section{
-    margin-top: 2%;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
 }
 section li{
     list-style-type: disc;    
-}
-ul .formations{
-    display: inline-flex;
-    justify-content: flex-start;    
-}
-.niveau{
-    list-style-type: none;
-    font-weight: bold;
 }
 /*==============section exp pro=============*/
 .bold{
@@ -144,7 +158,7 @@ ul .formations{
     font-size: x-large;
 }
 .row{
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
     
